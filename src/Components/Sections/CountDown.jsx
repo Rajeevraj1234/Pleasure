@@ -46,14 +46,14 @@ function Countdown() {
       <div className="w-full flex justify-center items-center">
         <div className="bg-[#242323]  w-full h-[400px] flex items-center justify-center text-center  rounded-t-3xl  ">
           <div>
-            <div className="text-center h-[20%] text-[2.5rem]  text-white tracking-tighter font-semibold">
+            <div className="text-center mx-2 sm:mx-0 h-[20%] text-[1.7rem] md:text-[2.5rem]  text-white tracking-tighter font-semibold">
               <h1>
                 What are you  <span className="font-bold text-[#FADA5E]">WAITING</span> for ?
               </h1>
             </div>
-            
-            <p className="font-bold text-[6rem]  my-5 text-white">{formatTime(time)}</p>
-            <button className="bg-[#FADA5E] w-[500px] h-[60px] font-bold text-2xl  px-4 py-2 rounded-md">
+            <p className="text-white text-lg font-semibold">Signup to get discount % </p>
+            <p className="font-bold text-[4rem] sm:text-[5rem] md:text-[6rem]  my-5 text-white">{formatTime(time)}</p>
+            <button className="bg-[#FADA5E] w-[200px] md:w-[500px] h-[60px] font-bold text-2xl  px-4 py-2 rounded-md">
               Signup{" "}
             </button>
           </div>
